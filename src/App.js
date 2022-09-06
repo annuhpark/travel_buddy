@@ -18,7 +18,6 @@ const App = () => {
   useEffect(() => {
     getPlacesData()
       .then((data) => {
-        // console.log(data);
         setPlaces(data);
       })
   }, []);
