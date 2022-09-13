@@ -13,7 +13,6 @@ const App = () => {
   const [places, setPlaces] = useState([]);
 
   const [coordinates, setCoordinates] = useState({});
-  // console.log(coordinates);
   const [bounds, setBounds] = useState(null);
 
   useEffect(() => {
